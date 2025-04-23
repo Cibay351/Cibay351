@@ -1,0 +1,64 @@
+*,
+html {
+  padding: 0;
+  margin: 0; 
+}
+body {
+  background-color: #000000ef;
+}
+/* NAVIGASI BAR */
+.navbar {
+  background-color: grey;
+  width: 100%;
+}
+.ul-navbar {
+  display: flex;
+  height: 30px;
+  justify-content: center; 
+  align-items: center; 
+}
+.li-navbar {
+  margin: 50px;
+  padding: 10px;
+  color: white;
+  list-style-type: none;
+  font-size: 15px;
+}
+.a-navbar:hover{
+  background-color: orange;
+}
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+/* CONTENT */
+.content {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ff-biasa {
+  width: 60px;
+  height: 60px;
+}
+.a-content {
+  background-color: green;
+  height: 60px; 
+  width: 60px;
+}
+#biodata {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+}
+/* FOOTER */
+.footer {
+  height: 20vh;
+  background-color: #2e2e2e;
+}
+.h1-footer {
+  font-size: 15px;
+  color: blue;
+}
